@@ -1,0 +1,27 @@
+.portfolio_block {    
+    padding: 25px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #fff;
+}
+.portfolio_block .block_content{
+    width: 80%;
+    float: left;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+.portfolio_block .stat_content{
+    padding-left: 22px;
+    float: left;
+    margin-top: 36px;
+    position: relative;
+}
+.yellow_bg{
+    background: #e7c12d;
+}
+.pink_bg{
+    background: #ea2c58;
+}
+.green_bg{
+    background: #91d214;
+}
