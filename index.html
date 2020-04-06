@@ -13,6 +13,7 @@
 <!-- styles for site -->
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1915f6d70a.js" crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target="#mainnav" data-offset="80" class="aster">
@@ -21,15 +22,22 @@
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light is-transparent" id="mainnav">
-      <div class="container"> <a class="navbar-brand" href="index.html"> LOGO </a>
+      <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/INC-1.png" class="logo img-fluid" alt=""> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-icon"> <i class="fas fa-bars"></i> </span> </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
           <ul class="navbar-nav">
             <li class="nav-item dropdown"> <a class="nav-link" href="#" >Home </a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
-            <li class="nav-item"> <a class="btn-menu" href="#">Buy Now</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="index.html#about">About</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="index.html#activities">Activities & Exempt Purposes</a> </li>
+            <!--<li class="nav-item"> <a class="nav-link" href="index.html#contact">Contact</a> </li>-->
+            <li class="nav-item">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="R77Q7DHA9CYAE" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+            </li>
           </ul>
           <!-- navbar --> 
           
@@ -47,7 +55,13 @@
           <div class="header-text">
             <h1 class="sec-title-xl">Welcome to RND4IMPACT INC.</h1>
             <p class="lead">Exist for a cause and impact. RND4IMPACT INC. is a 501(c)(3) scientific research organization that focuses broadly on scientific research and inquiry or which engage in interdisciplinary science activities, offers supervised mentoring programs to improve an individual’s capabilities and knowledge and promotes the practice of charitable giving and voluntarism through a variety of strategies.</p>
-            <a href="#" class="btn-lg">Download </a> </div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="R77Q7DHA9CYAE" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
         </div>
         <!-- col -->
         
@@ -62,42 +76,37 @@
     <!-- Container --> 
   </div>
 </div>
-<!-- PARTNER STARTS -->
-<!-- <div class="partner section-pad-xs">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-md-12">
-        <div class="partner-content">
-          <h4 class="sec-title-sm">Prepare, Move, Consolidate Exchange 2010, 2013, 2016 Mailboxes</h4>
-          <ul class="partner-list mb--x2">
-            <li><img src="img/partner-a.png" alt="partner"></li>
-            <li><img src="img/partner-b.png" alt="partner"></li>
-            <li><img src="img/partner-c.png" alt="partner"></li>
-            <li><img src="img/partner-d.png" alt="partner"></li>
-          </ul>
-        </div>
-      </div>
-      <!-- col --> 
-      
-    </div>
-    <!-- row --> 
-  </div>
-  <!-- container --> 
-</div> -->
-<!-- PARTNER ENDS --> 
 
 <!--   WHY THIS STARTS  -->
 <div class="why-this section-pad-lg section-pad nopb" id="about">
   <div class="container">
     <div class="row justify-content-center">
+      <div class="col-lg-12 text-center">
+        <div class="sec-heading">
+          <h2 class="sec-title-lg">About</h2>
+          <!-- <p class="lead">Delaware Charitable Nonstock Exempt Corporation</p> -->
+          <h5 class="mt-4">Delaware Charitable Nonstock Exempt Corporation</h5>
+          <p class="lead mt--30">Charitable contributions to IRC 501(c)(3) organizations, except for testing for public safety organizations, are deductible by donors on their federal income tax returns as provided by IRC 170(a)(1). <br>
+            <br>
+            IRC 509(a)(2) places a limit on the receipt of certain types of income to be regarded as a publicly supported entity. RND4IMPACT INC. normally receives more than one-third of its total support in each taxable year from the sum of: a. Gifts, grants, contributions, volunteer fees; and and b. Gross receipts from admission fees, sales of merchandise, performance of services, or furnishing of facilities, in an activity that is not an unrelated trade or business within the meaning of IRC 513. Disclaimer: RND4IMPACT INC. normally receives less than one-third of its total support from the sum of: a. Gross investment income, and b. Unrelated business taxable income less the tax imposed on that income. </p>
+        </div>
+      </div>
+      <!-- col --> 
+    </div>
+  </div>
+  <!-- Container --> 
+</div>
+<!--   WHY THIS ENDS  --> 
+
+<!--  FEATURE STARTS -->
+
+<div class="feature section-pad nopb" id="activities">
+  <div class="container">
+    <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <div class="sec-heading">
-          <h2 class="sec-title-lg">About:</h2>
-          <!-- <p class="lead">Delaware Charitable Nonstock Exempt Corporation</p> -->
-          <h5>Delaware Charitable Nonstock Exempt Corporation</h5>
-          <p class="lead">Charitable contributions to IRC 501(c)(3) organizations, except for testing for public safety organizations, are deductible by donors on their federal income tax returns as provided by IRC 170(a)(1). </p>
-
-            <p class="lead"> IRC 509(a)(2) places a limit on the receipt of certain types of income to be regarded as a publicly supported entity. RND4IMPACT INC. normally receives more than one-third of its total support in each taxable year from the sum of: a. Gifts, grants, contributions, volunteer fees; and and b. Gross receipts from admission fees, sales of merchandise, performance of services, or furnishing of facilities, in an activity that is not an unrelated trade or business within the meaning of IRC 513. Disclaimer: RND4IMPACT INC. normally receives less than one-third of its total support from the sum of: a. Gross investment income, and b. Unrelated business taxable income less the tax imposed on that income. </p>
+          <h2 class="sec-title-lg">Activities & Exempt Purposes</h2>
+          <p class="lead">Description of Our Activities & Exempt Purposes</p>
         </div>
       </div>
       <!-- col --> 
@@ -107,7 +116,9 @@
     <div class="row justify-content-center text-center">
       <div class="col-lg-4 col-md-6">
         <div class="why-box" >
-          <div class="why-img"> <img src="img/why-icon-a.png" alt="why-us"> </div>
+          <div class="why-img">
+            <div class="social-icon"> <a href="#"><i class="fas fa-wave-square fa-4x"></i></a> </div>
+          </div>
           <h2>Scientific : (51%)</h2>
           <p>U05 - Research Institutes & Public Policy Analysis<br>
             U20 - General Science<br>
@@ -119,7 +130,9 @@
       
       <div class="col-lg-4 col-md-6">
         <div class="why-box" >
-          <div class="why-img"> <img src="img/why-icon-a.png" alt="why-us"> </div>
+          <div class="why-img">
+            <div class="social-icon"> <a href="#"><i class="fas fa-book-open fa-4x"></i></a> </div>
+          </div>
           <h2>Educational: (38%)</h2>
           <p>B90 - Educational Services <br>
             Q21 - International Cultural Exchange</p>
@@ -129,7 +142,9 @@
       
       <div class="col-lg-4 col-md-6">
         <div class="why-box" >
-          <div class="why-img"> <img src="img/why-icon-a.png" alt="why-us"> </div>
+          <div class="why-img">
+            <div class="social-icon"> <a href="#"><i class="fas fa-hand-holding-usd fa-4x"></i></a> </div>
+          </div>
           <h2>Charitable: (11%)</h2>
           <p>T50 - Philanthropy, Charity & Voluntarism Promotion</p>
         </div>
@@ -137,179 +152,12 @@
       <!-- col --> 
       
     </div>
-    <!-- row --> 
-  </div>
-  <!-- Container --> 
-</div>
-<!--   WHY THIS ENDS  -->
-
-<div class="config  section-pad nopb" id="">
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-md-6">
-        <div class="config-img sec-img"> <img src="img/big-img.png" class="img-fluid" alt=""> </div>
-      </div>
-      <!-- col -->
-      
-      <div class="col-md-5 text-center text-md-left">
-        <div class="text-block">
-          <h2 class="sec-title-lg sec-title-md">No Trust Required</h2>
-          <p class="lead">Cross-forest migration of Exchange mailboxes without the need of establishing a trust between the forests. </p>
-          <a href="#" class="btn-link">Read More</a> </div>
-      </div>
-      <!-- col --> 
-      
-    </div>
-    <!-- row --> 
-  </div>
-  <!-- Container --> 
-</div>
-<div class="section-pad-lg">
-  <div class="container">
-    <hr>
-    <div class="row justify-content-between align-items-center">
-      <div class="col-md-6">
-        <div class="sec-img"> <img src="img/big-img.png" class="img-fluid" alt=""> </div>
-      </div>
-      <!-- col -->
-      
-      <div class="col-md-5 text-center text-md-right order-last order-md-first">
-        <div class="text-block">
-          <h2 class="sec-title-lg sec-title-md">Migrate Multiple Accepted Domains</h2>
-          <p class="lead">Prepare / move mailboxes of multiple maildomains. Divide a large number of mailboxes spanning several mail domains, into smaller, convenient batches and delegate to Efflux. It will perform an asynchronous move of mailboxes free of disruption.</p>
-          <a href="#" class="btn-link">Read More</a> </div>
-      </div>
-      <!-- col --> 
-      
-    </div>
-    <!-- row --> 
-  </div>
-  <!-- Container --> 
-</div>
-
-<!--  FEATURE STARTS -->
-
-<div class="feature section-pad nopb" id="feature">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="sec-heading">
-          <h2 class="sec-title-lg">More Features</h2>
-          <p class="lead">Efflux delivers much more than just a simple cross-forest migration tool. It extends a full service suite with added features. </p>
-        </div>
-      </div>
-      <!-- col --> 
-    </div>
-    <!-- row -->
-    
-    <div class="feature-content">
-      <div class="row mtn-x2">
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-item"> <img src="img/icon-a.png" alt="feature-icon">
-            <h2>Extensive Logging </h2>
-            <p>View the exceptions encountered during migration in a daily log of events. See logs in the form of a CSV file.</p>
-          </div>
-        </div>
-        <!-- col -->
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-item"> <img src="img/icon-a.png" alt="feature-icon">
-            <h2>Staged Migration</h2>
-            <p>Migrate mailboxes in various stages over time. Divide them into small, separate batches and move them at your ease over the course of a few weeks or even months. </p>
-          </div>
-        </div>
-        <!-- col -->
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-item"> <img src="img/icon-a.png" alt="feature-icon">
-            <h2>Desktop Utility</h2>
-            <p>Work with a user friendly desktop utility. Install the tool on the target forest and take advantage of a clean interface.</p>
-          </div>
-        </div>
-        <!-- col -->
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-item"> <img src="img/icon-a.png" alt="feature-icon">
-            <h2>Remove Complexities</h2>
-            <p>Programmatically removes complexities involved in manual migrations. Make migration simple, even for an average technical resource. </p>
-          </div>
-        </div>
-        <!-- col --> 
-        
-      </div>
-      <!-- row --> 
-    </div>
     <!-- feature-content --> 
     
   </div>
   <!-- Container --> 
 </div>
-<!--  FEATURE ENDS -->
-
-<div class="testimonial section-pad-lg section-pad nopb mtn-x2">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="sec-heading">
-          <h2 class="sec-title-lg">Migration Scenarios</h2>
-          <p class="lead">Efflux is typically designed to handle certain migration scenarios. It caters to three migration scenarios:</p>
-        </div>
-      </div>
-      <!-- col --> 
-    </div>
-    <!-- row -->
-    
-    <div class="testimonial-content">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="testimonial-item">
-            <div class="testimonial-box"  style="padding: 0px;">
-              <div class="why-img"> <img src="img/why-img.png" class="img-fluid" alt=""> </div>
-            </div>
-            <div class="testimonial-client">
-              <div class="testimonial-client-details" style="margin-top: 40px;">
-                <h6>No AD users exist on the target DC</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- col -->
-        
-        <div class="col-lg-4 col-md-6">
-          <div class="testimonial-item">
-            <div class="testimonial-box" style="padding: 0px;">
-              <div class="why-img"> <img src="img/why-img.png" class="img-fluid" alt=""> </div>
-            </div>
-            <div class="testimonial-client">
-              <div class="testimonial-client-details"  style="margin-top: 40px;">
-                <h6>Simple AD users exist on the target DC</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- col -->
-        
-        <div class="col-lg-4 col-md-6">
-          <div class="testimonial-item">
-            <div class="testimonial-box"  style="padding: 0px;">
-              <div class="why-img"> <img src="img/why-img.png" class="img-fluid" alt=""> </div>
-            </div>
-            <div class="testimonial-client">
-              <div class="testimonial-client-details"  style="margin-top: 40px;">
-                <h6>Mail Enabled users exist on the target DC</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- col --> 
-        
-      </div>
-      <!-- row --> 
-    </div>
-    <!-- testimonial-content --> 
-  </div>
-  <!-- Container --> 
-</div>
+<!--  FEATURE ENDS --> 
 
 <!-- CALL TO ACTION STARTS -->
 <div class="cta section-pad-sm section-pad nopb">
@@ -317,7 +165,7 @@
     <div class="cta-box">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-7">
-          <h2 class="cta-header">Dig deeper into efflx. Learn what it can do for you.</h2>
+          <h2 class="cta-header"><i>"Exist for a cause and impact."</i></h2>
         </div>
         <div class="col-md-4">
           <div class="cta-btn"> <a  href="#" class="btn-lg">Learn More</a> </div>
@@ -340,11 +188,12 @@
         <!-- col -->
         
         <div class="col-md-4">
-          <div class="footer-widget">
+          <div class="footer-widget"><br>
+            <h5>Usefull Links</h5>
             <ul class="footer-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About </a></li>
-              <li><a href="#">Features</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About </a></li>
+              <li><a href="index.html#activities">Activities & Exempt Purposes</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
@@ -354,18 +203,14 @@
         <!-- col -->
         
         <div class="col-md-4">
-          <div class="footer-widget">
+          <div class="footer-widget"><br>
+            <h5>Location</h5>
             <ul class="footer-list">
-              <li>+1 (647) 799-1000 </li>
-              <li>sales@abcxyz.com</li>
-              <li>Archid 789, 50 Burnhamthorpe Road W.</li>
-              <li>Mississauga, ON, L5B 3C2 United State.</li>
+              <li><i class="fa fa-phone"></i> 6037678249 </li>
+              <li> <i class="fa fa-envelope"></i> <a href="mailto:info@rnd4impact.com">info@rnd4impact.com</a></li>
+              <li><i class="fa fa-map-marker"></i> 640 W California Ave Suite 210 </li>
+              <li>Sunnyvale CA 94086</li>
             </ul>
-            <div class="social">
-              <div class="social-icon"> <a href="#"><i class="fab fa-facebook-f"></i></a> </div>
-              <div class="social-icon"> <a href="#"><i class="fab fa-twitter"></i></a> </div>
-              <div class="social-icon"> <a href="#"><i class="fab fa-linkedin-in"></i></a> </div>
-            </div>
           </div>
         </div>
         <!-- col --> 
@@ -376,7 +221,7 @@
     </div>
     <!-- Footer-content -->
     <div class="footer-text text-center">
-      <p>© 2020 Sulehri. All Rights Reserved</p>
+      <p>Copyright ©2020 All rights reserved | RND4IMPACT INC.</p>
     </div>
   </div>
   <!-- Container --> 
